@@ -6,8 +6,13 @@ tags:
 authors:
   - name: Jesse Cambon
     orcid: 0000-0001-6854-1514
+    affiliation: 1
   - name: Diego Hernangómez
     orcid: 0000-0001-8457-4658
+    affiliation: 1
+affiliations:
+ - name: Independent Researcher
+   index: 1
 date: 15 May 2021
 bibliography: paper.bib
 
