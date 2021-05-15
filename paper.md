@@ -20,9 +20,9 @@ bibliography: paper.bib
 
 # Summary
 
-Geocoding is the process of obtaining geographic coordinates (longitude and latitude) from an address or a place name. Geocoding is also referred to as forward geocoding to distinguish it from reverse geocoding which is the process of obtaining an address or place name from geographic coordinates. Both forward and reverse geocoding can be performed by geocoding services, which are web services that are accessible via an API. Either one input (an address or geographic coordinate) can be submitted per query, which we will refer to as single input geocoding, or multiple inputs can be submitted per query in what is known as batch geocoding. In addition to geographic coordinates, addresses, and place names, geocoder services can offer a wide variety of other data such as US Census geographies and stadium capacities.
+Geocoding is the process of obtaining geographic coordinates (longitude and latitude) from an address or a place name. Geocoding is also referred to as *forward geocoding* to distinguish it from *reverse geocoding* which is the process of obtaining an address or place name from geographic coordinates. Both forward and reverse geocoding can be performed by geocoding services, which are web services that are accessible via an API. Either one input (an address or geographic coordinate) can be submitted per query, which we will refer to as *single input geocoding*, or multiple inputs can be submitted per query in what is known as *batch geocoding*. In addition to geographic coordinates, addresses, and place names, geocoder services can offer a wide variety of other data such as US Census geographies and stadium capacities.
 
-Geocoding services are an important data source for analysts, researchers, and developers who work with geospatial data and there are many such services available. These services can vary widely in their API interfaces, capabilities, and output data formats. Tidygeocoder is an R package that provides an intuitive uniform interface for users of the R programming language [@R:2021] to easily incorporate data from geocoding services into their projects.
+Geocoding services are an important data source for analysts, researchers, and developers who work with geospatial data and there are many such services available. To leverage these services, users must execute API queries and then extract and format the data received from the service as necessary. Geocoder services also vary widely in their API interfaces, capabilities, and output data formats. Tidygeocoder is an R package that provides an intuitive uniform interface for users of the R programming language [@R:2021] to easily incorporate data from geocoding services into their projects.
 
 # Motivation
 
@@ -43,6 +43,6 @@ This reduces the amount of time required to create API queries and to parse the 
 
 # Acknowledgements
 
-We acknowledge contributions from _________________
+We acknowledge contributions from .........
 
 # References
