@@ -14,7 +14,9 @@
 
 ## JOSS Papers to Reference
 
-The [OpenTripPlanner paper](https://joss.theoj.org/papers/10.21105/joss.01926) has a format that I think would work well for this paper (although we may not need an example with code). Other papers on R packages that could be useful to reference:
+You can browse JOSS papers for R package [here](https://joss.theoj.org/papers/in/R). The [OpenTripPlanner paper](https://joss.theoj.org/papers/10.21105/joss.01926) has a format that I think would work well for this paper (although we may not need an example with code). 
+
+Other papers on R packages that could be useful to reference:
 
 - [cartography](https://joss.theoj.org/papers/10.21105/joss.00054)
 - [rtweet](https://joss.theoj.org/papers/10.21105/joss.01829)
@@ -25,3 +27,4 @@ The [OpenTripPlanner paper](https://joss.theoj.org/papers/10.21105/joss.01926) h
 - [BGGM: Bayesian Gaussian Graphical Models](https://joss.theoj.org/papers/10.21105/joss.02111)
 - [insight](https://joss.theoj.org/papers/10.21105/joss.01412)
 - [ezknitr](https://joss.theoj.org/papers/10.21105/joss.00075)
+- [simstudy](https://joss.theoj.org/papers/10.21105/joss.02763)

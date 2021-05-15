@@ -1,7 +1,7 @@
 ---
 title: 'tidygeocoder: An R package for geocoding'
 tags:
-  - rstats
+  - R
   - geocoding
 authors:
   - name: Jesse Cambon
