@@ -2,7 +2,8 @@
 
 ## Instructions
 
-- Push any changes to a GitHub repo and compile with [Whelon](https://whedon.theoj.org/).
+- To generate a JOSS format PDF file, push all changes to a GitHub repo and compile with [Whelon](https://whedon.theoj.org/)
+- To preview content quickly, you can open [paper.md](paper.md) in RStudio and use the `Preview` button.
 
 ## References
 

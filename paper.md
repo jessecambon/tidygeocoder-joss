@@ -39,7 +39,7 @@ The tidygeocoder package was created to minimize the amount of effort required t
 
 This reduces the amount of time required to create API queries and to parse the output returned from the geocoder service. Built-in dataframes are used to store important information on geocoder services such as parameter names, the maximum query rate, and the maximum allowed size of batch queries. This makes these values transparent to users and allows developers to easily add and edit these values as needed. Some package documentation is directly generated from these dataframes to reduce the need for the manual updating of documentation. For single input forward geocoding, a single dataframe maps universal parameter names to the specific API parameter names for each service, allowing the same functions to be used to create and execute queries for all supported geocoding services. 
 
-The package automatically adjusts the rate of querying based on the geocoder service selected to comply with usage restrictions. Also, all inputs to geocoder services are deduplicated before geocoder queries are constructed to optimize query efficiency.
+The package automatically adjusts the rate of querying based on the geocoder service selected to comply with usage restrictions. Also, all inputs to geocoder services are deduplicated before geocoder queries are constructed to optimize query efficiency. 
 
 # Statement of need
 
