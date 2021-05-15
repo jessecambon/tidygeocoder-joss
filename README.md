@@ -1,14 +1,17 @@
 # JOSS Testing
 
-## Getting Started
+## Instructions
+
+- Push any changes to a GitHub repo and compile with [Whelon](https://whedon.theoj.org/).
+
+## References
 
 - [Review Criteria](https://joss.readthedocs.io/en/latest/review_criteria.html)
-- [Example Paper](https://joss.readthedocs.io/en/latest/submitting.html#example-paper-and-bibliography)
-- [To compile the paper](https://whedon.theoj.org/)
+- An example paper is located [here](https://joss.readthedocs.io/en/latest/submitting.html#example-paper-and-bibliography) and is also on the `reference-paper` branch.
 - [GitHub Actions compilation](https://github.com/marketplace/actions/open-journals-pdf-generator)
 - [Rmarkdown citation format](https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html)
 
-## References
+## JOSS Papers to Reference
 
 The [OpenTripPlanner paper](https://joss.theoj.org/papers/10.21105/joss.01926) has a format that I think would work well for this paper (although we may not need an example with code). Other papers on R packages that could be useful to reference:
 
