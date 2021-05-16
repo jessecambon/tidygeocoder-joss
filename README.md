@@ -14,7 +14,8 @@
 
 ## JOSS Papers to Reference
 
-You can browse JOSS papers for R package [here](https://joss.theoj.org/papers/in/R). The [OpenTripPlanner paper](https://joss.theoj.org/papers/10.21105/joss.01926) has a format that I think would work well for this paper (although we may not need an example with code). 
+- You can browse JOSS papers for other R packages [here](https://joss.theoj.org/papers/in/R). 
+- The [OpenTripPlanner paper](https://joss.theoj.org/papers/10.21105/joss.01926) has a format that I think would work well for this paper (although we may not need an example with code). 
 
 Other papers on R packages that could be useful to reference:
 
