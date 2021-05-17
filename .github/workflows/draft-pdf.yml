@@ -1,8 +1,9 @@
 # Run manually
-on: workflow_dispatch
+name: create-paper
+on: [push, pull_request]
 
 jobs:
-  paper:
+  create-paper:
     runs-on: ubuntu-latest
     name: Paper Draft
     steps:
