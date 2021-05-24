@@ -11,6 +11,7 @@ authors:
     orcid: 0000-0001-8457-4658
     affiliation: 1
   - name: Christopher Belanger
+  - orcid: 0000-0003-2070-5721
     affiliation: 1
 affiliations:
  - name: Independent Researcher
