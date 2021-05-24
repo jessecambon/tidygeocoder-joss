@@ -11,8 +11,12 @@ authors:
     orcid: 0000-0001-8457-4658
     affiliation: 1
   - name: Christopher Belanger
-  - orcid: 0000-0003-2070-5721
+    orcid: 0000-0003-2070-5721
     affiliation: 1
+  - name: Daniel Possenriede
+    orcid: 0000-0002-6738-9845
+    affiliation: 1
+    
 affiliations:
  - name: Independent Researcher
    index: 1
@@ -23,7 +27,9 @@ bibliography: paper.bib
 
 # Summary
 
-Tidygeocoder is an R package that provides an intuitive uniform interface for users of the R programming language [@R:2021] to easily incorporate data from geocoding services into their projects. Geocoding (also called "forward geocoding") is the process of obtaining geographic coordinates (longitude and latitude) from an address or a place name, and "reverse geocoding" is the process of obtaining an address or place name from geographic coordinates. Many geocoding services are accessible as web services via an API, and to leverage these services users must execute API queries and then extract and format the data received from the service as necessary. However, geocoder services vary widely in their API interfaces, capabilities, and output data formats, which makes it difficult for users to adopt a new service or switch between them. Tidygeocoder addresses this gap by providing users with a simple and consistent interface to a number of popular geocoding services, so that users can spend less time worrying about API parameters and more time developing their analyses.
+Tidygeocoder is an R package that provides an intuitive uniform interface for users of the R programming language [@R:2021] to easily incorporate data from geocoding services into their projects. Geocoding (also called "forward geocoding") is the process of obtaining geographic coordinates (longitude and latitude) from an address or a place name, and "reverse geocoding" is the process of obtaining an address or place name from geographic coordinates. 
+
+Many geocoding services are accessible as web services via an API, and to leverage these services users must execute API queries and then extract and format the data received from the service as necessary. However, geocoder services vary widely in their API interfaces, capabilities, and output data formats, which makes it difficult for users to adopt a new service or switch between them. Tidygeocoder addresses this gap by providing users with a simple and consistent interface to a number of popular geocoding services, so that users can spend less time worrying about API parameters and more time developing their analyses.
 
 # Motivation
 
@@ -39,14 +45,12 @@ As a result of this complexity it can be difficult to get one geocoding service 
 
 # Functionality
 
-The tidygeocoder package was created to minimize the amount of effort required to use geocoder services in an R workflow. Additionally, the package is structured to make adding and maintaining support for geocoder services a modular and streamlined process. The package provides users a mechanism to access geocoder services through a unified interface and to receive output data in a tidy dataframe format [@Wickham:2014]. A universal set of input parameters is mapped to the specific API parameters for each service and the relevant parts of the output data are extracted and formatted. This reduces the amount of time and effort required utilize geocoder services and provides the ability to seamlessly transition between services.
+The tidygeocoder package was created to minimize the amount of effort required to use geocoder services in an R workflow. Additionally, the package is structured to make adding and maintaining support for geocoder services a modular and streamlined process. The package provides users a mechanism to access geocoder services through a unified interface and to receive output data in a tidy dataframe format [@Wickham:2014]. A universal set of input parameters is mapped to the specific API parameters for each service and the relevant parts of the output data are extracted and formatted. This reduces the amount of time and effort required utilize geocoder services and provides the ability to seamlessly transition between services. 
 
-The package also provides a variety of convenience functionality to simplify the geocoding process. The package automatically adjusts the rate of querying based on the geocoder service selected to comply with usage restrictions. All inputs to geocoder services are deduplicated before geocoder queries are constructed to avoid redundant or needlessly large queries. The httr package [@httr] is used to execute API queries, the jsonlite package [@jsonlite] is used to convert the JSON data returned from geocoder services into dataframes, and the tibble [@tibble] and dplyr [@dplyr] packages provide tidy dataframe and data manipulation functionality [@Wickham:2019].
+For forward geocoding, users can provide addresses and place names using either a single parameter or multiple address component parameters (ie. city, state, country, etc.). For reverse geocoding, the latitude and longitude parameters are specified with two separate parameters. These inputs can be provided standalone (ie. a single value or vector) or within a dataframe.
+
+The package also provides a variety of convenience functionality to simplify the geocoding process. The rate of querying is set automatically based on the usage policy restrictions of the selected geocoder service. All inputs to geocoder services are deduplicated before geocoder queries are constructed to avoid redundant or needlessly large queries. The httr package [@httr] is used to execute API queries, the jsonlite package [@jsonlite] is used to convert the JSON data returned from geocoder services into dataframes, and the tibble [@tibble] and dplyr [@dplyr] packages provide data manipulation and a tidy dataframe format [@Wickham:2019].
 
 Built-in dataframes are used to store important information on geocoder services such as parameter names, the maximum query rate, and the maximum allowed size of batch queries. This makes these values transparent to users and allows developers to easily add and edit these values as needed. Some package documentation is directly generated from these dataframes to reduce the need for the manual updating of documentation.
-
-# Acknowledgements
-
-We acknowledge contributions from .........
 
 # References
