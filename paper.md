@@ -16,13 +16,11 @@ authors:
   - name: Daniel Possenriede
     orcid: 0000-0002-6738-9845
     affiliation: 1
-    
 affiliations:
  - name: Independent Researcher
    index: 1
 date: 15 May 2021
 bibliography: paper.bib
-
 ---
 
 # Summary
