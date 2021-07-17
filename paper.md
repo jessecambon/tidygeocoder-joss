@@ -37,7 +37,9 @@ Tidygeocoder was created to remove obstacles that can make geocoding time-consum
 
 Additionally, the API parameter names are not standardized between services. The single-line address parameter for Nominatim is `“q”` (for query) while for Google it is named `“address”`. Some services such MapBox and TomTom use a non-standard query string format, which requires a different approach to constructing a query. Also, the same service can require a different API query and return output data in a different format depending on whether one input is given ("single input geocoding") or multiple inputs are given ("batch geocoding"). 
 
-For reverse geocoding, some services such as Nominatim use separate latitude and longitude parameters, whereas other services combine latitude and longitude into a single input parameter. Services can also require other parameters such as an API key and the desired output data format (ie. "json"). Working with data from geocoding services can also require a variety of data manipulation work. Services often return nested JSON data, but there is no standard format for this data so users must locate the relevant data they wish to extract in the JSON structure and format it as needed.
+For reverse geocoding, some services such as Nominatim use separate latitude and longitude parameters, whereas other services combine latitude and longitude into a single input parameter. Services can also require other parameters such as an API key and the desired output data format (e.g. "json"). 
+
+Another challenge is the extraction and formatting of the API output. Geocoding services differ widely in what kind of data they return and how the data is structured. Working with this data therefore requires a variety of data manipulation work from the user. Services often return nested JSON data, but there is no standard format for this data so users must locate the relevant data they wish to extract in the JSON structure and format it as needed.
 
 # Functionality
 
