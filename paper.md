@@ -49,6 +49,6 @@ For forward geocoding, users can provide addresses and place names using either 
 
 Tidygeocoder sets the API rate limit automatically based on the usage policy restrictions of the selected geocoding service. Only unique inputs are sent to geocoding services even if duplicate data is provided to avoid redundant or needlessly large queries. Built-in dataframes are used to store important information on geocoding services such as parameter names, the maximum query rate, and the maximum allowed size of batch queries. This makes these values transparent to users and allows developers to easily modify these parameters as needed. Some package documentation is directly generated from these dataframes to reduce the need for manual updates.
 
-The httr package [@httr] is used to execute API queries, the jsonlite package [@jsonlite] is used to convert JSON data returned from geocoding services into dataframes, the dplyr [@dplyr] package is used for data manipulation, and the tibble [@tibble] package provides a tidy dataframe format [@Wickham:2019].
+Tidygeocoder makes use of the httr package [@httr] to execute API queries, the jsonlite package [@jsonlite] to convert JSON data returned from geocoding services into dataframes, the dplyr [@dplyr] package for data manipulation, and the tibble [@tibble] package to return a tidy dataframe format [@Wickham:2019].
 
 # References
