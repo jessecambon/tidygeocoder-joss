@@ -33,7 +33,7 @@ To use a geocoding service you must execute an API query and then extract and fo
 
 # Challenges in Geocoding
 
-Tidygeocoder was created to remove obstacles that can make geocoding time-consuming and challenging. The first challenge in geocoding is to construct an API query to a geocoding service. However, the APIs of geocoding services differ greatly. For instance, the Nominatim service, which is based on OpenStreetMap data [@OSM:2017], has separate city, state, country, postal code, and county parameters that can be used to specify components of an address. Other services such as Google only use a single address parameter to construct queries. 
+Tidygeocoder was created to remove obstacles that can make geocoding time-consuming and challenging. The first challenge in geocoding is to construct an API query to a geocoding service. However, the APIs of geocoding services differ greatly. For instance, the Nominatim service, a geocoding service used by OpenStreetMap [@OSM:2017], has separate city, state, country, postal code, and county parameters that can be used to specify components of an address. Other services such as Google only use a single address parameter to construct queries. 
 
 Additionally, the API parameter names are not standardized between services. The single-line address parameter for Nominatim is `“q”` (for query) while for Google it is named `“address”`. Some services such MapBox and TomTom use a non-standard query string format, which requires a different approach to constructing a query. Also, the same service can require a different API query and return output data in a different format depending on whether one input is given ("single input geocoding") or multiple inputs are given ("batch geocoding"). 
 
