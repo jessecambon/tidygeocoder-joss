@@ -43,7 +43,7 @@ Another challenge is the extraction and formatting of the API output. Geocoding 
 
 # Functionality
 
-The tidygeocoder package provides users with a mechanism to use geocoding services through a unified interface and receive output data in a tidy dataframe format [@Wickham:2014] that can be easily incorporated into projects. A universal set of input parameters is mapped to the specific API parameters for each service and the relevant parts of the output data are extracted and formatted. This reduces the amount of time and effort required to utilize geocoding services and enables users to seamlessly transition between services. 
+The tidygeocoder package provides a mechanism to utilize geocoding services through a unified interface and receive output data in a tidy dataframe format [@Wickham:2014] that can be easily incorporated into projects. A universal set of input parameters is mapped to the specific API parameters for each service and the relevant parts of the output data are extracted and formatted. This reduces the amount of time and effort required to use geocoding services and enables users to seamlessly transition between services. 
 
 For forward geocoding, users can provide addresses and place names using either a single parameter or multiple address component parameters (i.e. city, state, country, etc.). For reverse geocoding, the latitude and longitude parameters are specified with two separate parameters. These inputs can be provided standalone (i.e. a single value or vector) or within a dataframe.
 
