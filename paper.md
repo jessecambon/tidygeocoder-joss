@@ -2,7 +2,6 @@
 title: 'tidygeocoder: An R package for geocoding'
 tags:
   - R
-  - geocoding
 authors:
   - name: Jesse Cambon
     orcid: 0000-0001-6854-1514
