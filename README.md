@@ -1,4 +1,6 @@
-# JOSS Testing
+# Tidygeocoder JOSS Paper
+
+Journal of Open Source Software (JOSS) submission for tidygeocoder
 
 ## Instructions
 
