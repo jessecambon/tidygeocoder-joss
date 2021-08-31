@@ -34,7 +34,9 @@ To use a geocoding service you must first execute an API query; then you need to
 
 # Statement of Need
 
-Tidygeocoder was created to remove obstacles that can make geocoding time-consuming and challenging. The first challenge in geocoding is to construct an API query to a geocoding service. However, the APIs of geocoding services differ greatly. For instance, Nominatim, a geocoding service from the OpenStreetMap project [@OSM:2017], has separate street, city, state, country, postal code, and county parameters that can be used to specify components of an address. Other services such as Google only use a single address parameter to construct queries. 
+Tidygeocoder was created to remove obstacles that can make geocoding time-consuming and challenging by providing a standardized interface to many geocoding services. In contrast to other R packages that offer some geocoding services as part of a larger feature set [@ggmap; @tmaptools], tidygeocoder is focused on making many geocoding services available through a standard interface. 
+
+The first challenge in geocoding is to construct an API query to a geocoding service. However, the APIs of geocoding services differ greatly. For instance, Nominatim, a geocoding service from the OpenStreetMap project [@OSM:2017], has separate street, city, state, country, postal code, and county parameters that can be used to specify components of an address. Other services such as Google only use a single address parameter to construct queries. 
 
 Additionally, the API parameter names are not standardized between services. The single-line address parameter for Nominatim is `“q”` (for query) while for Google it is `“address”`. Some services such as Mapbox and TomTom use a non-standard query string format, which requires a different approach for constructing queries. Also, the same service can require a different API query and return output data in a different format depending on whether one input is given ("single input geocoding") or multiple inputs are given ("batch geocoding"). 
 
