@@ -34,7 +34,7 @@ To use a geocoding service you must first execute an API query; then you need to
 
 # Statement of Need
 
-Tidygeocoder was created to remove obstacles that can make geocoding time-consuming and challenging by providing a standardized interface to many geocoding services. In contrast to other R packages that offer some geocoding services as part of a larger feature set [@ggmap; @tmaptools], tidygeocoder is focused on making many geocoding services available through a standard interface. 
+Tidygeocoder was created to remove obstacles that can make geocoding time-consuming and challenging by providing a standardized interface to many geocoding services. In contrast to other R packages that offer geocoding capabilities as part of a larger feature set [@ggmap; @tmaptools; @mapboxapi] or provide access to a single geocoding service [@censusxy; @rgeocodio; @opencage], tidygeocoder is focused on making many geocoding services available through a standard interface. 
 
 The first challenge in geocoding is to construct an API query to a geocoding service. However, the APIs of geocoding services differ greatly. For instance, Nominatim, a geocoding service from the OpenStreetMap project [@OSM:2017], has separate street, city, state, country, postal code, and county parameters that can be used to specify components of an address. Other services such as Google only use a single address parameter to construct queries. 
 
