@@ -26,7 +26,7 @@ bibliography: paper.bib
 
 # Summary
 
-Tidygeocoder [@tidygeocoder:2021] is a package for the R programming language [@R:2021] that allows researchers and analysts to easily perform geocoding. Geocoding (also called "forward geocoding") is the process of obtaining geographic coordinates (longitude and latitude) from an address or a place name, while reverse geocoding is the process of obtaining an address or place name from geographic coordinates. 
+Tidygeocoder is a package for the R programming language [@R:2021] that allows researchers and analysts to easily perform geocoding. Geocoding (also called "forward geocoding") is the process of obtaining geographic coordinates (longitude and latitude) from an address or a place name, while reverse geocoding is the process of obtaining an address or place name from geographic coordinates. 
 
 Forward and reverse geocoding play an important role in geospatial data analysis across many disciplines and are commonly performed through the use of web-based geocoding services, which are accessible as APIs [@Kounadi:2013]. Geocoding was historically available only through commercial geographic information system (GIS) software that can be expensive and cumbersome, making web-based services an attractive free or lower-cost alternative [@Karimi:2017]. A specific geocoding service may perform better or worse for particular geographic regions or purposes, so there can be value in switching between services for cross-validation [@Kilic:2020]. 
 
