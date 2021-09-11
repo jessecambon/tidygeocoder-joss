@@ -1,6 +1,8 @@
 # Tidygeocoder JOSS Paper
 
-Journal of Open Source Software (JOSS) submission for tidygeocoder
+[![DOI](https://joss.theoj.org/papers/10.21105/joss.03544/status.svg)](https://doi.org/10.21105/joss.03544)
+
+Journal of Open Source Software (JOSS) submission for tidygeocoder. Published in September 2021 and available [here](https://joss.theoj.org/papers/10.21105/joss.03544).
 
 ## Instructions
 
